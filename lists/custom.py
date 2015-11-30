@@ -3,5 +3,7 @@
 
 def getlist():
     liststr = """
+alibaba-inc.com
+aliway.com
 """
     return set(liststr.splitlines(False))
