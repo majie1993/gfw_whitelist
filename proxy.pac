@@ -1,7 +1,7 @@
 var wall_proxy = "SOCKS5 127.0.0.1:1080;";
 var nowall_proxy = "DIRECT;";
 var direct = "DIRECT;";
-var auto_proxy = wall_proxy; // if you have something like COW proxy
+var auto_proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080"; // if you have something like COW proxy
 var ip_proxy = nowall_proxy;
 
 /*
@@ -1560,6 +1560,8 @@ var white_domains = {"am":{
 "abchina":1,
 "ablesky":1,
 "accgame":1,
+"acfun":1,
+"acgvideo":1,
 "aci-wh":1,
 "acs86":1,
 "acshoes":1,
@@ -1646,6 +1648,7 @@ var white_domains = {"am":{
 "alacun":1,
 "aliapp":1,
 "alibaba":1,
+"alibaba-inc":1,
 "alibado":1,
 "alibole":1,
 "alicdn":1,
@@ -1662,6 +1665,7 @@ var white_domains = {"am":{
 "alitrip":1,
 "aliunicorn":1,
 "alivv":1,
+"aliway":1,
 "alixixi":1,
 "aliyiyao":1,
 "aliyun":1,
@@ -8462,6 +8466,7 @@ var white_domains = {"am":{
 "ajiang":1,
 "aladd":1,
 "ali213":1,
+"alibaba":1,
 "androidonline":1,
 "ankang":1,
 "anngo":1,
@@ -9278,6 +9283,7 @@ var white_domains = {"am":{
 "anquan":1,
 "antong":1,
 "aqbz":1,
+"atatech":1,
 "baiquean":1,
 "banyuetan":1,
 "baomi":1,
@@ -9572,6 +9578,8 @@ var white_domains = {"am":{
 "9555":1,
 "9928":1,
 "9998":1,
+"acfun":1,
+"acg":1,
 "bilibili":1,
 "caoxian":1,
 "cnnl":1,
