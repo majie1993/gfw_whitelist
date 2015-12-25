@@ -6,6 +6,7 @@ def getlist():
 alibaba-inc.com
 aliway.com
 atatech.org
+taobao.org
 alibaba.net
 """
     return set(liststr.splitlines(False))

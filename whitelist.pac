@@ -1,4 +1,4 @@
-var wall_proxy = "SOCKS5 127.0.0.1:1090; SOCKS 127.0.0.1:1090";
+var wall_proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1080;";
 var nowall_proxy = "DIRECT;";
 var direct = "DIRECT;";
 var ip_proxy = "DIRECT;";
@@ -9483,6 +9483,7 @@ var white_domains = {"am":{
 "sxly":1,
 "szfw":1,
 "taiwandao":1,
+"taobao":1,
 "tielu":1,
 "trustutn":1,
 "ttedu":1,
